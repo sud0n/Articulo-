@@ -63,6 +63,11 @@ body {
     font-family: "Cormorant Garamond", serif;
 }
 
+.source {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20%;
+}
+
 #main-image,
 #absolute,
 #chopin,

@@ -1,91 +1,81 @@
 body {
     background-color: #F2E6D8;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .Titulo {
     color: #593E2E;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
-    font-family: "Cormorant Garamond", serif;
 }
 
-.cormorant-garamond-italic {
-    font-family: "Cormorant Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  }
-
-  .fecha {
-    font-family: "Cormorant Garamond", serif;
+.fecha {
     font-style: italic;
-}
-
-.TitreJJB {
-    color: #555934;
     text-align: center;
-    margin-bottom: 50px;
-    font-size: 40px;
-    text-decoration: underline;
-    font-family: "Cormorant Garamond", serif;
 }
 
-.imageprince {
+#seccion-principal {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#entrance {
+    width: 500px;
+}
+
+.introduccion {
+    font-size: 22px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.seccion {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.seccion h2 {
+    color: #555934;
+    font-size: 35px;
+    border-bottom: 2px solid #593E2E;
+}
+
+.seccion p {
+    font-size: 20px;
+}
+
+.bloque-imagenes {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-    font-family: "Cormorant Garamond", serif;
+    justify-content: space-around;
+    margin: 20px 0;
 }
 
-.conteneur {
-    width: 90%;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px; 
-    font-family: "Cormorant Garamond", serif;
+.bloque-imagenes .imagen-noticia {
+    width: 45%;
 }
 
-.bloc {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    margin-bottom: 80px;
-    font-family: "Cormorant Garamond", serif;
-}
-
-.texte {
+.imagen-derecha {
+    float: right;
     width: 250px;
-    font-family: "Cormorant Garamond", serif;
+    margin-left: 20px;
 }
 
-.source {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 20%;
+.imagen-centrada {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
 }
 
-#main-image,
-#absolute,
-#chopin,
-#scene{
-    width: 300px;
+.imagen-noticia {
     height: auto;
     border: 5px solid #4D353A;
     border-radius: 5%;
 }
 
-#entrance {
-    width: 500px;
-    height: auto;
-    border: 5px solid #BF9B7A;
-    border-radius: 5%;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
+.source {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
 }
-
-
